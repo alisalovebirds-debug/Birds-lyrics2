@@ -1,1 +1,23 @@
 
+{
+  "schemaVersion": 1,
+  "id": "spotify_lyrics_hud",
+  "version": "${version}",
+  "name": "Spotify Lyrics HUD",
+  "description": "A Spotify-style music HUD with timed local lyrics.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.spotifyhud.SpotifyLyricsHud"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
